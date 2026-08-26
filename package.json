@@ -1,0 +1,17 @@
+{
+  "name": "memedreams",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collection:materialize": "node tools/materialize-collection.mjs",
+    "collection:verify": "node tools/verify-collection.mjs",
+    "collection:pack-car": "node tools/pack-car.mjs"
+  },
+  "dependencies": {
+    "@ipld/car": "^5.4.2",
+    "@ipld/unixfs": "^3.0.0",
+    "ipfs-car": "^3.1.0",
+    "multiformats": "^13.4.1"
+  }
+}

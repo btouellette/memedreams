@@ -1,0 +1,42 @@
+{
+  "schema": "memedreams.collection.v1",
+  "chainId": 137,
+  "contractAddress": "0x769c54f0886757f1677eb276b357d4f926c53439",
+  "activeBaseCid": "bafybeige7x7n4th2fe3ly2boaqodfescukb76tkun5vkqipeibpvjsqvae",
+  "activeBaseUri": "ipfs://bafybeige7x7n4th2fe3ly2boaqodfescukb76tkun5vkqipeibpvjsqvae/",
+  "tokenCount": 7800,
+  "tokenShardSize": 1000,
+  "tokenShards": [
+    "index/tokens-0000-0999.json",
+    "index/tokens-1000-1999.json",
+    "index/tokens-2000-2999.json",
+    "index/tokens-3000-3999.json",
+    "index/tokens-4000-4999.json",
+    "index/tokens-5000-5999.json",
+    "index/tokens-6000-6999.json",
+    "index/tokens-7000-7799.json"
+  ],
+  "includes": {
+    "tokenMetadata": true,
+    "media": true,
+    "cars": true
+  },
+  "paths": {
+    "metadataRoot": "metadata/bafybeige7x7n4th2fe3ly2boaqodfescukb76tkun5vkqipeibpvjsqvae",
+    "mediaRoot": "media",
+    "carRoot": "cars",
+    "rootMetadataCar": "cars/3b/6a/bafybeige7x7n4th2fe3ly2boaqodfescukb76tkun5vkqipeibpvjsqvae.car"
+  },
+  "counts": {
+    "imageCids": 7800,
+    "animationCids": 1950,
+    "stillOnlyTokens": 5850,
+    "carCids": 9751
+  },
+  "carRebuild": {
+    "unixfsChunkSize": 262144,
+    "rawLeaves": true,
+    "wrap": false,
+    "note": "Use tools/pack-car.mjs to reproduce media CAR roots from unpacked files."
+  }
+}
